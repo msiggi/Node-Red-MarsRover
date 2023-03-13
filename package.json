@@ -1,0 +1,17 @@
+{
+    "name": "Rover",
+    "description": "Node-Red-Steering of 4tronix Mars Rover",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-pca9685": "0.1.4",
+        "node-red-dashboard": "3.3.1",
+        "node-red-node-pi-neopixel": "2.0.0",
+        "node-red-node-pi-gpio": "2.0.1"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
